@@ -1,0 +1,77 @@
+body {
+    background-image: linear-gradient(to right, rgba(32, 145, 134, 1), rgba(200, 230, 226, 1));
+    margin: 0;
+}
+.container {
+    margin: 40px auto;
+    width: 400px;
+}
+h1 {
+    background-color: #367FD1;
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+    height: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+    text-indent: 1em;
+}
+.fas.fa-plus {
+    float: right;
+    font-size: 0.85em;
+    line-height: inherit;
+    margin-right: 10px;
+    text-indent: 0;
+}
+input {
+    border: none;
+    box-sizing: border-box;     /* keep the box size correct*/
+    font-size: 1em;
+    padding: 0;
+    text-align: left;
+    text-indent: 10px;
+    height: 40px;
+    width: 100%;
+}
+input:focus {
+    border: 3px solid #367FD1;
+    outline: none;
+}
+ul {
+    background-color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    height: 40px;
+    line-height: 40px;  /* center text vertically */
+}
+li:nth-child(odd) {
+    background-color: #BBBBBB;
+}
+li span {
+    margin-left: 10px;
+}
+li:hover {
+    font-size: 1.2em;
+}
+.fas.fa-trash-alt {
+    background-color: red;
+    color: white;
+    line-height: inherit;
+    opacity: 0;
+    text-align: center;
+    transition: 0.2s;
+    width: 0;
+}
+li:hover .fa-trash-alt {
+    opacity: 1;
+    width: 40px;
+}
+.done {
+    color: grey;
+    text-decoration: line-through;
+}
