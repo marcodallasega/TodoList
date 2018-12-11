@@ -27,7 +27,7 @@ NB make sure to have understood EXACTLY THE DIFFERECE BETWEEN .on() and .click()
 
 .on(events, selector, handler)
     EVENT DELEGATION : bind the handler (the on-click function)
-                       to dynamically add elements
+                       to dynamically added elements
 
 .click()
     does not do event delegation: if you add a new element,
